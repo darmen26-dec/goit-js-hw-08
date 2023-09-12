@@ -1,3 +1,5 @@
+https://darmen26-dec.github.io/goit-js-hw-08/
+
 # Parcel template
 
 Ten projekt został stworzony przy pomocy Parcel. W celu zapoznania się i
