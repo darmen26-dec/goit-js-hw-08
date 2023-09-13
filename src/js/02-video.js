@@ -14,4 +14,4 @@ const throttledSaveTime = throttle(onPlay, 1000);
 
 player.on('timeupdate', throttledSaveTime);
 
-player.setCurrentTime(JSON.parse(localStorage.getItem(LOCALSTORAGE_KEY)) || 0);
+// player.setCurrentTime(JSON.parse(localStorage.getItem(LOCALSTORAGE_KEY)) || 0);
