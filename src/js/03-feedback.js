@@ -41,7 +41,7 @@ form.addEventListener('submit', event => {
   form.reset();
 });
 
-// NOTATKI
+// NOTATKI:
 // throttle - Kontrola częstotliwości:
 // throttle to funkcja biblioteki lodash, która zapewnia kontrolę nad częstotliwością wykonywania innej funkcji. Działa tak, że wykonuje tę funkcję co najwyżej raz w określonym przedziale czasowym (w tym przypadku co 500 milisekund). Jeśli funkcja zostanie wywołana częściej, niż określony limit czasowy, throttle opóźnia jej wykonanie, aby nie przekraczała limitu.
 

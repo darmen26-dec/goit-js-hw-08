@@ -30,7 +30,7 @@ player.on('loaded', () => {
   }
 });
 
-// DRUGIE ROZWIĄZANIE
+// DRUGIE ROZWIĄZANIE:
 
 // import Player from '@vimeo/player';
 // import throttle from 'lodash.throttle';
