@@ -13,14 +13,16 @@ const savingLocalStorage = throttle(() => {
   localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(formData));
 }, 500);
 
-window.addEventListener('load', () => {
+const onLoad = () => {
   const storedFormData = localStorage.getItem(LOCALSTORAGE_KEY);
   if (storedFormData) {
     const parsedFormData = JSON.parse(storedFormData);
     form.elements.email.value = parsedFormData.email;
     form.elements.message.value = parsedFormData.message;
   }
-});
+};
+
+onLoad();
 
 form.elements.email.addEventListener('input', () => {
   savingLocalStorage();
